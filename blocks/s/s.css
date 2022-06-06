@@ -1,21 +1,32 @@
 .reviews {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  margin: auto;
+  grid-template-columns: 300px 1fr repeat(2, minmax(min-content, max-content));
+  grid-template-rows: 1fr max-content;
   grid-template-areas:
-  'title btns'
-  'pagin .'
-  'img img'
-  'txt txt'
-  'link link' ;
-  background-color: #fff;
+  '. title pagin btns'
+  '. wraper wraper wraper';
+
   padding: 0 26px;
   margin-top: 174px;
 }
+/* .reviews__slide .swiper-slide {
+  display: flex;
+} */
+
+.reviews__wrapper {
+  box-sizing: border-box;
+  grid-area: wraper;
+  text-align: left;
+  background-color: #fff;
+  padding: 55px 89px 72px 89px;
+  max-width: 718px;
+}
 .title {
+  max-width: 718px;
   padding: 0;
   margin: 0;
-  margin-top: -110px;
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
@@ -27,9 +38,10 @@
 }
 .btn-arrow {
   grid-area: btns;
-  margin-top: -250px;
+  display: flex;
+  /* margin-top: -250px; */
   justify-self: flex-end;
-  margin-top: -75px;
+  /* margin-top: -75px; */
 }
 .btn-arrow__left {
 
@@ -39,7 +51,7 @@
   transform: rotate(180deg);
   padding: 0;
   margin: 0;
-  margin-right: 20px;
+  margin-right: 23px;
   background-color: rgba(255, 255, 255, 0);
   width: 48px;
   height: 48px;
@@ -135,7 +147,7 @@
   padding-top: 33px;
   grid-area: pagin;
 }
-.pagination__item {
+.pagination .swiper-pagination-bullet{
   margin-right: 16px;
   list-style-type: none;
   border: 1px solid #242424;
@@ -143,7 +155,7 @@
   width: 4px;
   height: 4px;
 }
-.pagination__item_active {
+.pagination .swiper-pagination-bullet-active{
   width: 6px;
   height: 6px;
   background-color: #242424;
@@ -155,9 +167,10 @@
   grid-area: img;
 }
 .text-info {
+  box-sizing: border-box;
   margin: 0;
-  padding-top: 35px;
-
+  margin: 47px 0 40px 0;
+  max-width: 541px;
   font-family: 'Formular';
   text-align: left;
   font-style: normal;
@@ -169,7 +182,7 @@
   grid-area: txt;
 }
 
-.link {
+.reviews__link {
   font-family: 'Formular';
   font-style: normal;
   font-weight: 300;
@@ -189,7 +202,6 @@
   padding: 10px 0 10px 5px;
   position: relative;
 }
-
 
 .link::after {
   z-index: 2;
