@@ -1,0 +1,27 @@
+.description {
+  display: grid;
+  margin: 0 auto;
+max-width: 1440px;
+}
+
+
+@media screen and (max-width: 827px) {
+.description {
+grid-template-areas:
+    "details"
+    "video";
+  grid-template-rows: 632px 1838px;
+  gap: 24px;
+}
+}
+
+@media screen and (min-width: 828px) {
+.description {
+grid-template-areas: 
+"details video"
+". video";
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 502px 1838px;
+justify-items: left;
+}  
+}

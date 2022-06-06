@@ -1,11 +1,14 @@
 .video {
   display: grid;
   grid-template-areas:
-    "video"
-    "text";
+    ". video ."
+    ". text .";
+  grid-template-rows: 1fr auto;
   gap: 32px;
-  max-width: 366px;
-  margin: 0 auto;
-  padding: 24px 0 100px 0;
-  grid-template-rows: 206px 1600px;
+}
+
+@media screen and (max-width: 827px) {
+.video {
+grid-template-columns: 1fr auto 1fr;
+}
 }

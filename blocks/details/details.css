@@ -1,13 +1,18 @@
 .details {
-  max-width: 414px;
-  background-color: #fff;
+  grid-area: details;
+  max-width: 827px;
   display: grid;
   grid-template-areas:
     ". time age ."
     ". persons persons .";
-  grid-template-columns: 24px 181px auto 24px;
+  grid-template-columns: 1fr 181px auto 1fr;
   row-gap: 20px;
-  padding: 58px 0 72px 0;
   justify-items: start;
-  margin: 0 auto;
+}
+
+@media screen and (max-width: 827px) {
+.details {
+  background-color: #fff;
+  padding: 58px 0 72px 0;
+}
 }

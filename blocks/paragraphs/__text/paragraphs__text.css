@@ -1,5 +1,6 @@
 .paragraphs__text {
   text-align: left;
+max-width: 602px;
 }
 
 .paragraphs__text:not(:first-child) {

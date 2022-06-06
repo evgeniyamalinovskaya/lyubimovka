@@ -1,5 +1,5 @@
 .paragraphs {
   grid-area: text;
   padding-left: 1px;
-  max-width: 365px;
+  margin: 0 auto;
 }

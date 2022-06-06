@@ -1,9 +1,8 @@
 .video__preview {
   grid-area: video;
   background-image: url("../../../image/preview.jpg");
+background-size: contain;
   background-repeat: no-repeat;
-  max-width: 366px;
-  max-height: 206px;
   width: 100%;
   height: 100%;
   object-fit: cover;

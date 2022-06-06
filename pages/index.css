@@ -3,7 +3,9 @@
 
 @import url(../blocks/page/page.css);
 
-@import url('../blocks/description-text/description-text.css');
+
+@import url('../blocks/description/description.css');
+@import url('../blocks/description/description__text.css');
 @import url('../blocks/details/details.css');
 @import url('../blocks/details/__text/details__text.css');
 @import url('../blocks/details/__text/_type/details__text_type_age.css');
@@ -12,13 +14,11 @@
 @import url('../blocks/person/person.css');
 @import url('../blocks/person/__job/person__job.css');
 @import url('../blocks/person/__name/person__name.css');
-
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__preview/video__preview.css');
 @import url('../blocks/video/__play-btn/video__play-btn.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
 @import url('../blocks/video/__iframe/_active/video__iframe_active.css');
-
 @import url('../blocks/paragraphs/paragraphs.css');
 @import url('../blocks/paragraphs/__text/paragraphs__text.css');
 
