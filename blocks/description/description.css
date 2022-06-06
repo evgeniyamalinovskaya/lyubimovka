@@ -2,7 +2,9 @@
 display: grid;
 grid-template-areas: 
 "details"
-"video";
-max-width: 366px;
+"video"
+"paragraphs";
+grid-template-rows: 632px 262px 1600px;
+grid-template-columns: 366px;
 padding: 0 24px;
 }

@@ -1,0 +1,9 @@
+.video__play-btn {
+position: absolute;
+z-index: 2;
+top: 71px;
+left: 151px;
+width: 64px;
+height: 64px;
+cursor: pointer;
+}

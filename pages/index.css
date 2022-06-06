@@ -16,8 +16,13 @@
 @import url('../blocks/person/__name/person__name.css');
 
 @import url('../blocks/video/video.css');
+@import url('../blocks/video/__play-btn/video__play-btn.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
-@import url('../blocks/video/__paragraph/video__paragraph.css');
+@import url('../blocks/video/__iframe/_active/video__iframe_active.css');
+
+@import url('../blocks/paragraphs/paragraphs.css');
+@import url('../blocks/paragraphs/__text/paragraphs__text.css');
+
 
 @import url(../blocks/gallery-grid/gallery-grid.css);
 @import url(../blocks/gallery-grid/__container/gallery-grid__container.css);

@@ -1,0 +1,12 @@
+.paragraphs__text {
+text-align: left;
+}
+
+.paragraphs__text:not(:first-child) {
+text-indent: 59px;
+margin-top: 16px;
+}
+
+.paragraphs__text:nth-child(3) {
+margin-top: 29px;
+}
