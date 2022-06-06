@@ -1,7 +1,7 @@
 .person {
-margin: 0 0 24px 1px;
+  margin: 0 0 24px 1px;
 }
 
 .person:last-child {
-margin-bottom: 0;
+  margin-bottom: 0;
 }

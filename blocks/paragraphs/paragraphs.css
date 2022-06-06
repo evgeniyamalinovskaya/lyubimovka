@@ -1,4 +1,5 @@
 .paragraphs {
-grid-area: paragraphs;
-padding-left: 1px;
+  grid-area: text;
+  padding-left: 1px;
+  max-width: 365px;
 }
