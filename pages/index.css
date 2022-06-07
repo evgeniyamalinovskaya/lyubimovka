@@ -3,10 +3,16 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/page-title/page-title.css);
+@import url(../blocks/page-text/page-text.css);
+@import url(../blocks/page-link/page-link.css);
+@import url(../blocks/page-button/page-button.css);
+
 @import url(../blocks/gallery-grid/gallery-grid.css);
 @import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
 @import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
 
-
+@import url(../blocks/hidden/hidden.css);
+@import url(../blocks/visible/visible.css);
 @import url(../blocks/s/s.css);
