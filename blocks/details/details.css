@@ -5,9 +5,10 @@
   grid-template-areas:
     ". time age ."
     ". persons persons .";
-  grid-template-columns: 1fr 181px auto 1fr;
+  grid-template-columns: 24px 181px auto 24px;
+grid-template-rows: 32px auto;
   row-gap: 20px;
-  justify-items: start;
+  justify-items: center;
 }
 
 @media screen and (max-width: 827px) {
@@ -16,3 +17,10 @@
   padding: 58px 0 72px 0;
 }
 }
+
+@media screen and (min-width: 1000px) {
+.details {
+margin-left: 22%;
+}
+}
+

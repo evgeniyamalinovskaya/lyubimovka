@@ -16,6 +16,7 @@
 @import url('../blocks/person/__name/person__name.css');
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__preview/video__preview.css');
+@import url('../blocks/video/__preview/_disactive/video__preview_disactive.css');
 @import url('../blocks/video/__play-btn/video__play-btn.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
 @import url('../blocks/video/__iframe/_active/video__iframe_active.css');

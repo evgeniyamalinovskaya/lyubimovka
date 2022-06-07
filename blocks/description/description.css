@@ -10,7 +10,7 @@ max-width: 1440px;
 grid-template-areas:
     "details"
     "video";
-  grid-template-rows: 632px 1838px;
+  grid-template-rows: auto auto;
   gap: 24px;
 }
 }
@@ -21,7 +21,7 @@ grid-template-areas:
 "details video"
 ". video";
 grid-template-columns: 1fr 1fr;
-  grid-template-rows: 502px 1838px;
+  grid-template-rows: 502px auto;
 justify-items: left;
 }  
 }

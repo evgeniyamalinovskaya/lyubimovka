@@ -1,6 +1,5 @@
 .paragraphs__text {
   text-align: left;
-max-width: 602px;
 }
 
 .paragraphs__text:not(:first-child) {
@@ -10,4 +9,16 @@ max-width: 602px;
 
 .paragraphs__text:nth-child(3) {
   margin-top: 29px;
+}
+
+@media screen and (max-width: 414px) {
+.paragraphs__text {
+max-width: 365px;
+}
+}
+
+@media screen and  (min-width: 1200px) {
+.paragraphs__text {
+padding-right: 85px;
+}
 }
