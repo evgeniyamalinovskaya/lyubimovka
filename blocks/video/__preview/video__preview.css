@@ -1,7 +1,7 @@
 .video__preview {
   background-image: url("../../../image/preview.jpg");
-background-size: cover;
-background-position: center;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -18,15 +18,14 @@ background-position: center;
 }
 
 @media screen and (min-width: 500px) and (max-width: 827px) {
-.video__preview {
-min-height: 389px;
-}
-}
-
-@media screen and  (min-width: 1000px) {
-.video__preview {
-min-height: 389px;
-  grid-template-rows: 154px 64px auto;
-}
+  .video__preview {
+    min-height: 389px;
+  }
 }
 
+@media screen and (min-width: 1000px) {
+  .video__preview {
+    min-height: 389px;
+    grid-template-rows: 154px 64px auto;
+  }
+}

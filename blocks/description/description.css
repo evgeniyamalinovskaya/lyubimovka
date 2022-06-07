@@ -1,27 +1,17 @@
 .description {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
-max-width: 1440px;
 }
-
 
 @media screen and (max-width: 827px) {
-.description {
-grid-template-areas:
-    "details"
-    "video";
-  grid-template-rows: auto auto;
-  gap: 24px;
-}
+  .description {
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 828px) {
-.description {
-grid-template-areas: 
-"details video"
-". video";
-grid-template-columns: 1fr 1fr;
-  grid-template-rows: 502px auto;
-justify-items: left;
-}  
+  .description {
+    flex-direction: row;
+  }
 }

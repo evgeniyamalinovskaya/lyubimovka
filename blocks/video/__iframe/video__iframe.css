@@ -4,18 +4,17 @@
   object-fit: cover;
   border: 0;
   display: none;
-min-height: 206px;
+  min-height: 206px;
 }
 
 @media screen and (min-width: 500px) and (max-width: 827px) {
-.video__iframe {
-min-height: 389px;
-}
-}
-
-@media screen and  (min-width: 1000px) {
-.video__iframe {
-min-height: 389px;
-}
+  .video__iframe {
+    min-height: 389px;
+  }
 }
 
+@media screen and (min-width: 1000px) {
+  .video__iframe {
+    min-height: 389px;
+  }
+}

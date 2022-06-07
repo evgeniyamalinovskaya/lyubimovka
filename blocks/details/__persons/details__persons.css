@@ -3,6 +3,11 @@
   padding: 0;
   list-style: none;
   grid-area: persons;
-max-width: 425px;
   text-align: left;
+}
+
+@media screen and (min-width: 1000px) {
+  .details__persons {
+    max-width: 425px;
+  }
 }
