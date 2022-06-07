@@ -1,2 +1,13 @@
 .gallery-grid__title {
+	padding: 0 23px 25px;
+	max-width: 100%;
+	text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+	.gallery-grid__title {
+		max-width: 24.444%;
+		padding-left: 362px;
+		padding-bottom: 47px;
+	}
 }
