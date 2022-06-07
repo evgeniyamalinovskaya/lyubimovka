@@ -2,31 +2,46 @@
   box-sizing: border-box;
   display: grid;
   margin: auto;
-  grid-template-columns: 300px 1fr repeat(2, minmax(min-content, max-content));
+  grid-template-columns: minmax(0, 362px) 1fr repeat(2, minmax(min-content, max-content)) minmax(0, 360px);
   grid-template-rows: 1fr max-content;
   grid-template-areas:
-  '. title pagin btns'
-  '. wraper wraper wraper';
+  '. title pagin btns .'
+  'wraper wraper wraper wraper wraper';
 
-  padding: 0 26px;
   margin-top: 174px;
 }
-/* .reviews__slide .swiper-slide {
-  display: flex;
-} */
+
+.swiper-button-prev, 
+.swiper-button-next {
+  top: 0;
+}
 
 .reviews__wrapper {
-  box-sizing: border-box;
   grid-area: wraper;
+  display: flex;
+  align-items: center;
+}
+.reviews__wrapper .swiper-slide {
+  transform: scale(0.9);
+  opacity: .5;
+}
+.reviews__slide {
+  box-sizing: border-box;
+  transition: opacity .3s, transform .3s ease-in-out;
   text-align: left;
   background-color: #fff;
   padding: 55px 89px 72px 89px;
   max-width: 718px;
 }
+.reviews__wrapper .swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+}
 .title {
   max-width: 718px;
   padding: 0;
   margin: 0;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
@@ -39,19 +54,21 @@
 .btn-arrow {
   grid-area: btns;
   display: flex;
-  /* margin-top: -250px; */
   justify-self: flex-end;
-  /* margin-top: -75px; */
+  margin-bottom: 36px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  position: relative;
 }
 .btn-arrow__left {
-
   background-image: url(../../image/arrow-right.svg);
   background-repeat: no-repeat;
   background-position: center center;
   transform: rotate(180deg);
   padding: 0;
   margin: 0;
-  margin-right: 23px;
+  margin-left: 23px;
   background-color: rgba(255, 255, 255, 0);
   width: 48px;
   height: 48px;
@@ -139,15 +156,15 @@
   top: 0;
   bottom: 0;
 }
-.pagination {
-  margin: 0;
+.swiper-pagination{
+  position: relative;
+  margin: 0 40px 0 0;
   padding: 0;
   display: flex;
   align-items: center;
-  padding-top: 33px;
   grid-area: pagin;
 }
-.pagination .swiper-pagination-bullet{
+.swiper-pagination-bullet{
   margin-right: 16px;
   list-style-type: none;
   border: 1px solid #242424;
@@ -155,13 +172,12 @@
   width: 4px;
   height: 4px;
 }
-.pagination .swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active{
   width: 6px;
   height: 6px;
   background-color: #242424;
 }
 .article-title {
-  padding-top: 38px;
   width: 241px;
   height: 40px;
   grid-area: img;
