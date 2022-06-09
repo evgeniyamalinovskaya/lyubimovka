@@ -6,7 +6,8 @@ const swiper = new Swiper('.swiper', {
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
-      dynamicBullets: true
+      type: 'bullets',
+      dynamicBullets: true,
     },
   
     // Navigation arrows
@@ -14,11 +15,25 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-	slidesPerView: 2,
-	slidesPerColumn: 0,
-	centeredSlides: true, 
-	spaceBetween: 0,
-	// allowTouchMove: false,
+    slidesPerView: 1,
+    slidesPerColumn: 0,
+    centeredSlides: true, 
+    spaceBetween: 0,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      601: {
+        slidesPerView: 1.2,
+      },
+      769: {
+        slidesPerView: 1.5,
+      },
+      1025: {
+        slidesPerView: 2,
+      }
+    },
+	allowTouchMove: true,
   
     // And if we need scrollbar
     // scrollbar: {
