@@ -1,0 +1,5 @@
+.play__container {
+  display: flex;
+  flex-direction: column;
+  background: #b7c09d;
+}
