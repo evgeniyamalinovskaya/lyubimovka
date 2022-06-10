@@ -1,45 +1,48 @@
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: false,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      dynamicBullets: true,
+const swiper = new Swiper('.reviews', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  slideClass: 'reviews__slide',
+  slideActiveClass: 'reviews__slide_active',
+  wrapperClass: 'reviews__wrapper',
+  // If we need pagination
+  pagination: {
+    el: '.pagination',
+    type: 'bullets',
+    dynamicBullets: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 1,
+  slidesPerColumn: 0,
+  centeredSlides: true,
+  spaceBetween: 0,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
     },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+    620: {
+      slidesPerView: 1.2,
+      
     },
-    slidesPerView: 1,
-    slidesPerColumn: 0,
-    centeredSlides: true, 
-    spaceBetween: 0,
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-      },
-      601: {
-        slidesPerView: 1.2,
-      },
-      769: {
-        slidesPerView: 1.5,
-      },
-      1025: {
-        slidesPerView: 2,
-      }
+    769: {
+      slidesPerView: 1.5,
     },
-	allowTouchMove: true,
-  
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-  });
+    1025: {
+      slidesPerView: 2,
+    }
+  },
+  allowTouchMove: true,
+
+  // And if we need scrollbar
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  // },
+});
 // const imgArrayChange = [
 // 	'./image/gallery-grid_pic_1.jpg',
 // 	'./image/gallery-grid_pic_2.jpg',

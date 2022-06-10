@@ -1,0 +1,15 @@
+.reviews__slide {
+  box-sizing: border-box;
+  transition: opacity .3s, transform .3s ease-in-out;
+  text-align: left;
+  background-color: #fff;
+  padding: 55px 89px 72px 89px;
+  max-width: 718px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 620px) {
+  .reviews__slide {
+    padding: 77px 26px 72px 26px;
+  }
+}
