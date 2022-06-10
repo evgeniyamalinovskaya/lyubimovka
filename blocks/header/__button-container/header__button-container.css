@@ -1,0 +1,15 @@
+.header__button-container{
+    margin: 0;
+    margin-right: 0;
+    max-width: 361px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 54px;
+    padding-top: 69.5px;
+}
+@media screen and (min-width: 1440px) {
+    .header__button-container{
+        padding: 0;
+        border: none;
+    }   
+}

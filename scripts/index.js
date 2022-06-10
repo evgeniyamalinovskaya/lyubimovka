@@ -1,3 +1,12 @@
+//Бургерное меню
+const iconMenu = document.querySelector('.header__menu-icon');
+if (iconMenu) {
+    const menuBody = document.querySelector('.header__menu-body');
+    iconMenu.addEventListener('click', function(){
+        iconMenu.classList.toggle('_active');
+        menuBody.classList.toggle('_active');
+    })  
+}
 const imgArrayChange = [
 	'./image/gallery-grid_pic_1.jpg',
 	'./image/gallery-grid_pic_2.jpg',
