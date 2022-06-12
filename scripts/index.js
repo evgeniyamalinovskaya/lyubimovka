@@ -58,7 +58,7 @@ const swiperComments = new Swiper('.comments', {
       spaceBetween: 0,
     },
     440: {
-      slidesPerView: 1.2,
+      slidesPerView: 1.5,
       spaceBetween: 15,
     },
     620: {
@@ -66,7 +66,7 @@ const swiperComments = new Swiper('.comments', {
       spaceBetween: 15,
     },
     769: {
-      slidesPerView: 2,
+      slidesPerView: 2.5,
       spaceBetween: 30,
     },
     1025: {
