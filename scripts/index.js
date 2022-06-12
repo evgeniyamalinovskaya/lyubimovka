@@ -37,11 +37,53 @@ const swiper = new Swiper('.reviews', {
     }
   },
   allowTouchMove: true,
+});
+const swiperComments = new Swiper('.comments', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: false,
+  slideClass: 'comments__slide',
+  slideActiveClass: 'comments__slide_active',
+  wrapperClass: 'comments__wrapper',
+  // If we need pagination
+  pagination: {
+    el: '.pagination',
+    type: 'bullets',
+    dynamicBullets: true,
+  },
+  spaceBetween: 30,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+    },
+    440: {
+      slidesPerView: 1.2,
+      spaceBetween: 15,
+    },
+    620: {
+      slidesPerView: 1.7,
+      spaceBetween: 15,
+    },
+    769: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    1025: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  slidesPerView: 3,
 
-  // And if we need scrollbar
-  // scrollbar: {
-  //   el: '.swiper-scrollbar',
-  // },
+  spaceBetween: 0,
+
+  allowTouchMove: true,
 });
 // const imgArrayChange = [
 // 	'./image/gallery-grid_pic_1.jpg',

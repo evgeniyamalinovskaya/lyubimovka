@@ -1,12 +1,13 @@
 .btn-arrow {
   grid-area: btns;
   display: flex;
-  justify-self: flex-end;
-  margin-bottom: 36px;
+  margin: 0 -10px 20px 0;
+  align-self: center;
+  justify-self: end;
 }
 
 @media screen and (max-width: 620px) {
   .btn-arrow {
-    margin-bottom: 25px;
+    margin: 0 20px 25px 0;
   }
 }

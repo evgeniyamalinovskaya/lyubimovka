@@ -1,15 +1,20 @@
 .pagination {
   position: static;
-  padding: 0 0 40px 0;
+  padding: 0 -18px 12px 0;
 
   grid-area: pagin;
   justify-self: end;
-  align-self: end;
+  align-self: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .pagination {
+    padding: 0 10px 12px 0;
+  }
+}
 @media screen and (max-width: 620px) {
   .pagination {
-    margin: 33px 0 0 26px;
+    padding-top: 33px;
     justify-self: start;
     align-self: start;
   }

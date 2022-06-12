@@ -5,11 +5,11 @@
   display: grid;
   margin: auto;
   grid-template-columns: repeat(2, 1fr) repeat(2, .5fr) 1fr;
-  grid-template-rows: 1fr max-content;
+  grid-template-rows: 100px max-content;
   grid-template-areas:
     '. title pagin btns .'
     'wraper wraper wraper wraper wraper';
-  margin-top: 174px;
+  padding-top: 174px;
 }
 
 @media screen and (max-width: 620px) {
