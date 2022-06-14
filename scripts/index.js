@@ -1,3 +1,20 @@
+
+const videoIframe = document.querySelector('.video__iframe');
+const previewImage = document.querySelector('.video__preview');
+const playButton = document.querySelector('.video__play-btn');
+
+// const imgArrayChange = [
+// 	'./image/gallery-grid_pic_1.jpg',
+// 	'./image/gallery-grid_pic_2.jpg',
+// 	'./image/gallery-grid_pic_3.jpg',
+// 	'./image/gallery-grid_pic_4.jpg',
+// 	'./image/gallery-grid_pic_5.jpg',
+// 	'./image/gallery-grid_pic_6.jpg',
+// 	'./image/gallery-grid_pic_7.jpg',
+// 	'./image/gallery-grid_pic_8.jpg',
+// 	'./image/gallery-grid_pic_9.jpg',
+// ]
+
 const swiper = new Swiper('.reviews', {
   // Optional parameters
   direction: 'horizontal',
@@ -11,6 +28,7 @@ const swiper = new Swiper('.reviews', {
     type: 'bullets',
     dynamicBullets: true,
   },
+
 
   // Navigation arrows
   navigation: {
@@ -81,7 +99,19 @@ const swiperComments = new Swiper('.comments', {
   },
   slidesPerView: 3,
 
+
+//Активация видео и скрытие превью-картинки
+function playVideo(evt) {
+    videoIframe.classList.add('video__iframe_active');
+    previewImage.classList.add('video__preview_disactive');
+};
+
+playButton.addEventListener('click', playVideo);
+
+//Анимация картинок блока gallery
+
   spaceBetween: 0,
+
 
   allowTouchMove: true,
 });
@@ -124,3 +154,4 @@ const swiperComments = new Swiper('.comments', {
 // setInterval(() => {
 // 	updateOneRandomImage();
 // }, 3000);
+

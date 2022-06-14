@@ -1,0 +1,6 @@
+.video__play-btn {
+  grid-area: play;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
