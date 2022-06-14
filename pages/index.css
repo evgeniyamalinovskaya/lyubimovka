@@ -34,3 +34,29 @@
 
 @import url(../blocks/hidden/hidden.css);
 @import url(../blocks/visible/visible.css);
+
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__link-text/reviews__link-text.css);
+@import url(../blocks/reviews/__article-title/reviews__article-title.css);
+@import url(../blocks/reviews/__link/reviews__link.css);
+@import url(../blocks/reviews/__slide/reviews__slide.css);
+@import url(../blocks/reviews/__text-info/reviews__text-info.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__wrapper/reviews__wrapper.css);
+
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__article-title/comments__article-title.css);
+@import url(../blocks/comments/__link-text/comments__link-text.css);
+@import url(../blocks/comments/__link/comments__link.css);
+@import url(../blocks/comments/__slide/comments__slide.css);
+@import url(../blocks/comments/__text-info/comments__text-info.css);
+@import url(../blocks/comments/__title/comments__title.css);
+@import url(../blocks/comments/__wrapper/comments__wrapper.css);
+
+@import url(../blocks/btn-arrow/btn-arrow.css);
+@import url(../blocks/btn-arrow/__left/btn-arrow__left.css);
+@import url(../blocks/btn-arrow/__right/btn-arrow__right.css);
+@import url(../blocks/pagination/pagination.css);
+
+
