@@ -1,0 +1,23 @@
+.reviews__wrapper {
+  grid-area: wraper;
+  display: flex;
+  align-items: center;
+}
+
+.reviews__wrapper .reviews__slide {
+  height: auto;
+  transform: scale(0.9);
+  align-self: flex-start;
+  opacity: .5;
+}
+
+.reviews__wrapper .reviews__slide_active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@media screen and (max-width: 620px) {
+  .reviews__wrapper {
+    margin-top: -50px;
+  }
+}
