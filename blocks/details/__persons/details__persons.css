@@ -1,0 +1,13 @@
+.details__persons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  grid-area: persons;
+  text-align: left;
+}
+
+@media screen and (min-width: 1000px) {
+  .details__persons {
+    max-width: 425px;
+  }
+}

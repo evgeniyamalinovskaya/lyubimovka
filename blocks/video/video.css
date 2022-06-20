@@ -1,0 +1,17 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+  max-width: 691px;
+  margin: 0 auto;
+  padding: 0 22px 0 24px;
+}
+
+@media screen and (min-width: 828px) {
+  .video {
+    margin: 0;
+    padding: 0;
+    row-gap: 66px;
+    max-width: 50%;
+  }
+}

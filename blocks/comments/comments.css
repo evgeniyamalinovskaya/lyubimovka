@@ -1,0 +1,36 @@
+.comments {
+  box-sizing: border-box;
+  display: grid;
+  margin: auto;
+  overflow: hidden;
+  grid-template-columns: 300px 1fr repeat(2, .5fr) 302px;
+  grid-template-rows: 100px max-content;
+  grid-template-areas:
+    '. title pagin btns .'
+    'wraper wraper wraper wraper wraper';
+  margin: 116px 60px;
+
+}
+
+@media screen and (max-width:1200px) {
+  .comments {
+    grid-template-columns: repeat(2, 1fr) repeat(2, .5fr) 1fr;
+    grid-template-rows: 100px max-content;
+    grid-template-areas:
+      '. title pagin btns .'
+      'wraper wraper wraper wraper wraper';
+    margin: 0;
+    margin-top: 76px;
+  }
+}
+
+@media screen and (max-width:620px) {
+  .comments {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 50px max-content;
+    grid-template-areas:
+      'title btns'
+      'pagin .'
+      'wraper wraper';
+  }
+}

@@ -1,0 +1,20 @@
+.comments__wrapper {
+  width: calc(100% - 120px);
+  grid-area: wraper;
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .comments__wrapper {
+    width: calc(100% - 80px);
+  }
+}
+@media screen and (max-width: 620px) {
+  .comments__wrapper {
+    width: 100%;
+    margin-top: -50px;
+    gap: 0;
+  }
+}
