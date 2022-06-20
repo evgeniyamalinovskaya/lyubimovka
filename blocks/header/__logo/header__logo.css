@@ -1,0 +1,17 @@
+.header__logo{
+    width: 43px;
+    margin: 0;
+    z-index: 10;
+}
+@media screen and (min-width: 1440px) {
+    .header__logo{
+        justify-self: start;
+        grid-row-start: 2;
+        grid-column-start: 2;
+    }    
+}
+@media screen and (max-width: 1439px) {
+    .header__logo{
+        grid-column-start: 2;
+    }
+}
