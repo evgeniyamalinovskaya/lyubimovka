@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Любимовка</title>
@@ -9,12 +9,18 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body class="page">
-
-    <header class="header">
-
-    </header>
+  <body class="page">
+    <header class="header"></header>
     <main class="content">
+
+      <section class="play">
+        <div class="play__title">Почитать пьесу</div>
+        <div class="play__container">
+          <p class="play__paragraph">С_училища</p>
+          <p class="play__secondparagraph">
+            Конкретные разговоры пожилых супругов ни о чём
+          </p>
+
 <section class="description" aria-label="Заголовок">
     <div class="details">
         <p class="page-text details__text details__text_type_time">1 ч. 15 мин.</p>
@@ -97,16 +103,30 @@
         </section>
     </main>
 
-    <footer>
 
-    </footer>
-    <script src="./scripts/index.js"></script>
-=======
-  <header class="header">
-
-  </header>
-  <main class="content">
-
+          <a href="#" class="play__button play__fistbutton">
+            <div class="play__newpage" src="#">СМОТРЕТЬ ЧИТКУ</div>
+            <img class="play__img play__firstimg" src="./image/arrow-45.png" />
+          </a>
+          <a
+            href="link/to/your/download/file"
+            download="filename"
+            class="play__button play__secondbutton"
+          >
+            <div class="play__download">СКАЧАТЬ ПЬЕСУ</div>
+            <img
+              class="play__img play__secondimg"
+              src="./image/arrow-down.png"
+            />
+          </a>
+        </div>
+        <div class="play__box">
+          <p class="play__author">Андрей Иванов</p>
+          <p class="play__nextauthor">Екатерина Августеняк</p>
+          <p class="play__sign">Санкт-&nbsp;Петербург 2020</p>
+        </div>
+      </section>
+     
     <!-- Slider main container -->
     <section class="reviews">
       <h2 class="reviews__title">Рецензии</h2>

@@ -106,6 +106,35 @@ function playVideo(evt) {
     previewImage.classList.add('video__preview_disactive');
 };
 
+setInterval(() => {
+	updateOneRandomImage();
+}, 3000);
+//-секция play, смена цвета стрелок
+const playFirstImg = document.querySelector('.play__firstimg');
+const playSecondImg = document.querySelector('.play__secondimg');
+const playButton = document.querySelector('.play__fistbutton');
+const playSecondButton = document.querySelector('.play__secondbutton');
+
+ function onMouseIcon(){
+    playFirstImg.src="./image/arrow_45_negate.png";
+}
+function outMouseIcon(){
+	playFirstImg.src="./image/arrow-45.png";
+}
+function onMouseIconComm(){
+	playSecondImg.src="./image/arrow_down_negate.png";
+}
+function outMouseIconComm(){
+	playSecondImg.src="./image/arrow-down.png";
+}
+ 
+playButton.onmouseover=onMouseIcon;
+playButton.onmouseout=outMouseIcon;
+
+playSecondButton.onmouseover=onMouseIconComm;
+playSecondButton.onmouseout=outMouseIconComm;
+// конец секции play 
+
 playButton.addEventListener('click', playVideo);
 
 //Анимация картинок блока gallery
