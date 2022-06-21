@@ -1,0 +1,29 @@
+.footer__partner{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__partner:nth-child(2){
+    margin-top: 22px;
+}
+
+.footer__partner:nth-child(4){
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 880px) {
+    .footer__partner {
+        max-width: 97px;
+        max-height: 36px;
+    }
+    .footer__partner:nth-child(2){
+        margin-top: 0;
+    }
+    
+    .footer__partner:nth-child(4){
+        margin-top: 0;
+    }
+  }

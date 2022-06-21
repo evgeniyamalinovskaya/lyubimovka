@@ -15,3 +15,28 @@
 
 @import url(../blocks/hidden/hidden.css);
 @import url(../blocks/visible/visible.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__group-places/footer__group-places.css);
+@import url(../blocks/footer/__places/footer__places.css);
+@import url(../blocks/footer/__place/footer__place.css);
+@import url(../blocks/footer/__place-area/footer__place-area.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__big-table/footer__big-table.css);
+@import url(../blocks/footer/__list-first/footer__list-first.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
+@import url(../blocks/footer/__head/footer__head.css);
+@import url(../blocks/footer/__info-partner/footer__info-partner.css);
+@import url(../blocks/footer/__info-partner/_type/footer__info-partner_type_active.css);
+@import url(../blocks/footer/__info-partner/_type/footer__info-partner_type_grid-logo.css);
+@import url(../blocks/footer/__info-partner/_type/footer__info-partner_type_grid-text.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partner/footer__partner.css);
+@import url(../blocks/footer/__group-three/footer__group-three.css);
+@import url(../blocks/footer/__info-sites/footer__info-sites.css);
+@import url(../blocks/footer/__info-site/footer__info-site.css);
+@import url(../blocks/footer/__info-designs/footer__info-designs.css);
+@import url(../blocks/footer/__info-design/footer__info-design.css);
+@import url(../blocks/footer/__general-partner/footer__general-partner.css);
