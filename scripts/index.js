@@ -24,7 +24,16 @@ const imgs = document.querySelectorAll(".gallery-grid__pic");
 
 const videoIframe = document.querySelector('.video__iframe');
 const previewImage = document.querySelector('.video__preview');
-const playButton = document.querySelector('.video__play-btn');
+const playVideoButton = document.querySelector('.video__play-btn');
+
+//Активация видео и скрытие превью-картинки
+function playVideo(evt) {
+    previewImage.classList.add('video__preview_disactive')
+    videoIframe.classList.add('video__iframe_active');;
+};
+
+playVideoButton.addEventListener('click', playVideo);
+
 
 // const imgArrayChange = [
 // 	'./image/gallery-grid_pic_1.jpg',
@@ -123,12 +132,6 @@ const swiperComments = new Swiper('.comments', {
   slidesPerView: 3,
 
 
-//Активация видео и скрытие превью-картинки
-function playVideo(evt) {
-    videoIframe.classList.add('video__iframe_active');
-    previewImage.classList.add('video__preview_disactive');
-};
-
 setInterval(() => {
 	updateOneRandomImage();
 }, 3000);
@@ -158,8 +161,6 @@ playButton.onmouseout=outMouseIcon;
 playSecondButton.onmouseover=onMouseIconComm;
 playSecondButton.onmouseout=outMouseIconComm;
 // конец секции play 
-
-playButton.addEventListener('click', playVideo);
 
 //Анимация картинок блока gallery
 
@@ -207,4 +208,3 @@ playButton.addEventListener('click', playVideo);
 // setInterval(() => {
 // 	updateOneRandomImage();
 // }, 3000);
-
