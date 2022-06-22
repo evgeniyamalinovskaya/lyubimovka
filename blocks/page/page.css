@@ -21,4 +21,9 @@
   font-feature-settings: "kern";
   display: grid;
   grid-template-columns: minmax(320px, 100%);
+  grid-template-areas:
+  "header"
+  "content"
+  "footer";
+  row-gap: 30px;
 }

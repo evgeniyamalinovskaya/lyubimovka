@@ -1,0 +1,21 @@
+.comments__slide {
+  box-sizing: border-box;
+  transition: opacity .3s, transform .3s ease-in-out;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+  padding: 33px 30px 24px 30px;
+  max-width: 420px;
+  height: 361px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 620px) {
+  .comments__slide {
+    height: 478px;
+    padding: 72px 28px 100px 28px;
+  }
+}

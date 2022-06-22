@@ -1,0 +1,17 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 827px) {
+  .description {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 828px) {
+  .description {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,13 @@
+.header__btn-back-link{
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-image: url(../../../image/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 9px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 10px;
+    color: #242424;
+}
