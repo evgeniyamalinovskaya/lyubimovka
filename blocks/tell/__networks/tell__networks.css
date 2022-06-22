@@ -1,0 +1,11 @@
+.tell__networks{
+    margin: 25px;
+}
+
+@media screen and (min-width: 750px) {
+    .tell__networks {
+      margin: auto;
+      width: 666px;
+      margin-top: 57px;
+    }
+  }

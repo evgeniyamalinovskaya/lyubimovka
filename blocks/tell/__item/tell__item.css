@@ -1,0 +1,16 @@
+.tell__item {
+box-sizing: border-box;
+height: 25px;
+margin-right: 8px;
+border-bottom: 1px solid #242424;
+border-left: 1px solid #242424;
+}
+
+.tell__item:hover {
+    animation: arrow 3.5s linear forwards;
+    transition: transform .5s ease-in-out;
+    transform-origin: 0 50%;
+    background-color: #242424;
+    color: #ffffff;
+
+  }
