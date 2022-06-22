@@ -1,0 +1,12 @@
+.tell__icon {
+
+}
+
+.tell__icon:hover {
+/*     animation: arrow 3.5s linear forwards;
+    transition: transform .5s ease-in-out;
+    transform-origin: 0 50%;
+    background-color: #242424; */
+    color: #ffffff;
+
+  }

@@ -7,3 +7,14 @@
 @import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
 @import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
+
+@import url(../blocks/tell/tell.css);
+@import url(../blocks/tell/__subtitle/tell__subtitle.css);
+@import url(../blocks/tell/__subtitle/_is_under/tell__subtitle_is_under.css);
+@import url(../blocks/tell/__image/tell__image.css);
+@import url(../blocks/tell/__lists/tell__lists.css);
+@import url(../blocks/tell/__item/tell__item.css);
+@import url(../blocks/tell/__link/tell__link.css);
+@import url(../blocks/tell/__networks/tell__networks.css);
+@import url(../blocks/tell/__links/tell__links.css);
+@import url(../blocks/tell/__icon/tell__icon.css);
