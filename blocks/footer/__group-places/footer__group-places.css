@@ -1,0 +1,13 @@
+.footer__group-places{
+    margin-top: 33px;
+    margin-left: 55px;
+}
+
+@media screen and (min-width: 880px) {
+    .footer__group-places {
+        grid-column: 2/3;
+        grid-row: 3;
+        margin-top: 0;
+        margin-left: 45px;
+    }
+  }
