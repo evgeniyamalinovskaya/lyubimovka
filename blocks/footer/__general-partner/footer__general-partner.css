@@ -1,0 +1,14 @@
+.footer__general-partner{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 880px) {
+    .footer__general-partner {
+        display: grid;
+        grid-template-columns: 135px 91px;
+        grid-template-rows: 34px;
+
+    }
+  }
