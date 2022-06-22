@@ -1,0 +1,7 @@
+@media screen and (min-width: 1150px){
+    .footer__info-partner_type_grid-logo{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+.play__box {
+  width: 130px;
+  margin: 14px 0 0 0;
+}
+
+@media (max-width: 560px) {
+  .play__box {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
