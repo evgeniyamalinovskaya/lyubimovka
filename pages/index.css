@@ -31,6 +31,18 @@
 @import url(../blocks/page-link/page-link.css);
 @import url(../blocks/page-button/page-button.css);
 
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__about/info__about.css);
+@import url(../blocks/info/__advertising/info__advertising.css);
+@import url(../blocks/info/__image/info__image.css);
+@import url(../blocks/info/__left-column/info__left-column.css);
+@import url(../blocks/info/__right-column/info__right-column.css);
+@import url(../blocks/info/__ticket-button/info__ticket-button.css);
+@import url(../blocks/info/__ticket-button-arrow/info__ticket-button-arrow.css);
+@import url(../blocks/info/__ticket-button-name/info__ticket-button-name.css);
+@import url(../blocks/info/__time/info__time.css);
+@import url(../blocks/info/__title/info__title.css);
+
 @import url('../blocks/description/description.css');
 @import url('../blocks/description/__text/description__text.css');
 @import url('../blocks/details/details.css');
@@ -120,7 +132,11 @@
 @import url(../blocks/btn-arrow/btn-arrow.css);
 @import url(../blocks/btn-arrow/__left/btn-arrow__left.css);
 @import url(../blocks/btn-arrow/__right/btn-arrow__right.css);
+
 @import url(../blocks/pagination/pagination.css);
+
+@import url(../blocks/pagination/pagination.css);
+
 
 
 
