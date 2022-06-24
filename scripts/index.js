@@ -22,17 +22,29 @@ const imgArrayChange = [
 
 const imgs = document.querySelectorAll(".gallery-grid__pic");
 
-const videoIframe = document.querySelector('.video__iframe');
-const previewImage = document.querySelector('.video__preview');
-const playVideoButton = document.querySelector('.video__play-btn');
+const videoContainer = document.querySelector('.video__container');
+const previewImage = videoContainer.querySelector('.video__preview');
+const playVideoButton = videoContainer.querySelector('.video__play-btn');
 
-//Активация видео и скрытие превью-картинки
-function playVideo(evt) {
-    previewImage.classList.add('video__preview_disactive')
-    videoIframe.classList.add('video__iframe_active');;
-};
+//Создание iframe для воспроизведения видео
+function createIframe() {
+  let iframe = document.createElement('iframe');
 
-playVideoButton.addEventListener('click', playVideo);
+  iframe.setAttribute('allowfullscreen', '');
+  iframe.setAttribute('allow', 'autoplay');
+  iframe.setAttribute('src', 'https://www.youtube.com/embed/juq_3oRQ6yc?rel=0&showinfo=0&autoplay=1');
+  iframe.classList.add('video__iframe');
+
+  return iframe;
+}
+
+playVideoButton.addEventListener('click', () => {
+  let iframe = createIframe();
+
+  previewImage.remove();
+  playVideoButton.remove();
+  videoContainer.appendChild(iframe);
+});
 
 
 // const imgArrayChange = [
