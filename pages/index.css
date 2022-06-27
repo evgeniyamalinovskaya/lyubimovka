@@ -136,6 +136,7 @@
 @import url(../blocks/comments/__link/comments__link.css);
 @import url(../blocks/comments/__slide/comments__slide.css);
 @import url(../blocks/comments/__text-info/comments__text-info.css);
+@import url(../blocks/comments/__text-info-overlay/comments__text-info-overlay.css);
 @import url(../blocks/comments/__title/comments__title.css);
 @import url(../blocks/comments/__wrapper/comments__wrapper.css);
 

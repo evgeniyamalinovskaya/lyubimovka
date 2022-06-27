@@ -69,23 +69,21 @@ const swiper = new Swiper('.reviews', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  slidesPerView: 1,
-  slidesPerColumn: 0,
+
   centeredSlides: true,
   spaceBetween: 0,
   breakpoints: {
     320: {
       slidesPerView: 1,
-    },
-    620: {
-      slidesPerView: 1.2,
-      
+      slidesPerGroup: 1,
     },
     769: {
       slidesPerView: 1.5,
+      slidesPerGroup: 1,
     },
     1025: {
       slidesPerView: 2,
+      slidesPerGroup: 1,
     }
   },
   allowTouchMove: true,
@@ -103,38 +101,34 @@ const swiperComments = new Swiper('.comments', {
     type: 'bullets',
     dynamicBullets: true,
   },
-  spaceBetween: 30,
   breakpoints: {
     0: {
       slidesPerView: 1,
       spaceBetween: 0,
+      slidesPerGroup: 1,
     },
-    440: {
+    600: {
       slidesPerView: 1.5,
       spaceBetween: 15,
-    },
-    620: {
-      slidesPerView: 1.7,
-      spaceBetween: 15,
+      slidesPerGroup: 1,
     },
     769: {
-      slidesPerView: 2.5,
+      slidesPerView: 1.7,
       spaceBetween: 30,
+      slidesPerGroup: 1,
     },
     1025: {
       slidesPerView: 3,
       spaceBetween: 30,
-    }
+      slidesPerGroup: 2,
+    },
   },
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  slidesPerView: 3,
 //Анимация картинок блока gallery
-
-  spaceBetween: 0,
   allowTouchMove: true,
 });
 
