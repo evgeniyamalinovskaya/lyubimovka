@@ -1,12 +1,12 @@
 .tell__icon {
-
+  box-sizing: border-box;
+  background-image: url(../../../image/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
 }
-
+/* 
 .tell__icon:hover {
-/*     animation: arrow 3.5s linear forwards;
-    transition: transform .5s ease-in-out;
-    transform-origin: 0 50%;
-    background-color: #242424; */
-    color: #ffffff;
-
-  }
+  background-image: url(../../../image/arrow-right-white.svg);
+  } */

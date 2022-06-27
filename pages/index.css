@@ -75,6 +75,7 @@
 @import url(../blocks/tell/__networks/tell__networks.css);
 @import url(../blocks/tell/__links/tell__links.css);
 @import url(../blocks/tell/__icon/tell__icon.css);
+@import url(../blocks/tell/__text/tell__text.css);
 
 
 @import url(../blocks/hidden/hidden.css);
