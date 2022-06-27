@@ -56,7 +56,6 @@
 @import url('../blocks/video/__preview/_disactive/video__preview_disactive.css');
 @import url('../blocks/video/__play-btn/video__play-btn.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
-@import url('../blocks/video/__iframe/_active/video__iframe_active.css');
 @import url('../blocks/paragraphs/paragraphs.css');
 @import url('../blocks/paragraphs/__text/paragraphs__text.css');
 
@@ -76,6 +75,7 @@
 @import url(../blocks/tell/__networks/tell__networks.css);
 @import url(../blocks/tell/__links/tell__links.css);
 @import url(../blocks/tell/__icon/tell__icon.css);
+@import url(../blocks/tell/__text/tell__text.css);
 
 
 @import url(../blocks/hidden/hidden.css);
@@ -136,6 +136,7 @@
 @import url(../blocks/comments/__link/comments__link.css);
 @import url(../blocks/comments/__slide/comments__slide.css);
 @import url(../blocks/comments/__text-info/comments__text-info.css);
+@import url(../blocks/comments/__text-info-overlay/comments__text-info-overlay.css);
 @import url(../blocks/comments/__title/comments__title.css);
 @import url(../blocks/comments/__wrapper/comments__wrapper.css);
 
