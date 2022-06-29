@@ -23,6 +23,8 @@
         font-size: 14px;
         line-height: 17px;
         border: none;
-        padding-left: 23px;
     }
+}
+.header__button:hover {
+  opacity: 0.5;
 }
