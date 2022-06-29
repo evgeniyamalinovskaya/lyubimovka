@@ -14,7 +14,7 @@
     border-width: 1px;
     cursor: pointer;
     background-color: #E5E5E5;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: space-between;
 }
@@ -23,6 +23,9 @@
         font-size: 14px;
         line-height: 17px;
         border: none;
-        padding-left: 23px;
+        display: flex;
     }
+}
+.header__button:hover {
+  opacity: 0.5;
 }

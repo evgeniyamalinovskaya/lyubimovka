@@ -21,6 +21,7 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/menu__link/menu__link.css);
+@import url(../blocks/header/__plus-img/header__plus-img.css);
 
 @import url(../blocks/ellipse/ellipse.css);
 
