@@ -1,5 +1,5 @@
 .info__title {
-  width: 410px;
+  width: 420px;
   margin-top: 62px;
   margin-left: 120px;
   margin-bottom: 37px;
@@ -12,6 +12,10 @@
   font-size: 72px;
   line-height: 70px;
   color: #242424;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 
 }
 
