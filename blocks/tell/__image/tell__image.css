@@ -1,0 +1,9 @@
+.tell__image {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 404px;
+    min-height: 252px;
+    background-size: cover;
+    object-fit: cover;
+}

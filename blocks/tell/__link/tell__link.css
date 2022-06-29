@@ -1,0 +1,67 @@
+.tell__link {
+  text-decoration: none;
+  font-family: "Formular";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  min-height: 25px;
+  cursor: pointer;
+  background: transparent;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  
+  /* transition: transform .3s ease-in-out; */
+}
+
+.tell__link:hover, .tell__link:hover .tell__text {
+  background-position: left;
+  color: #ECEBE8;
+  transition: .8s;
+}
+
+.tell__link:hover .tell__icon{
+  background-image: url(../../../image/arrow-right-white.svg);
+}
+
+.tell__link:active {
+  transform: scale(1.2);
+  transition-delay: 0ms;
+}
+
+/* .tell__link::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  transition: transform .3s ease-out;
+  transform: translateX(-105%);
+  z-index: -1;
+}
+
+.tell__link:hover::before {
+  transform: translateX(0);
+}
+.tell__link:hover .tell-text {
+  transition: color 0.3s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+.tell__link:active {
+  transform: scale(1.1);
+} */
+
+/*  .tell__link:hover {
+ animation: arrow 3.5s linear forwards;
+  transition: transform .5s ease-in-out;
+  transform-origin: 0 50%; */
+ /*  background-color: #242424; 
+  color: #ffffff;
+
+}
+
+/* 

@@ -2,6 +2,7 @@
   grid-area: wraper;
   display: flex;
   align-items: center;
+  
 }
 
 .reviews__wrapper .reviews__slide {

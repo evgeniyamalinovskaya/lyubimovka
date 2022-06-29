@@ -4,13 +4,11 @@
   text-align: left;
   background-color: rgb(255, 255, 255);
   padding: 33px 30px 24px 30px;
-  max-width: 420px;
   height: 361px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-shrink: 0;
 }
 
 @media screen and (max-width: 620px) {

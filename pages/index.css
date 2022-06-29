@@ -21,10 +21,9 @@
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/menu__link/menu__link.css);
+@import url(../blocks/header/__plus-img/header__plus-img.css);
 
 @import url(../blocks/ellipse/ellipse.css);
-
-
 
 @import url(../blocks/page-title/page-title.css);
 @import url(../blocks/page-text/page-text.css);
@@ -58,7 +57,6 @@
 @import url('../blocks/video/__preview/_disactive/video__preview_disactive.css');
 @import url('../blocks/video/__play-btn/video__play-btn.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
-@import url('../blocks/video/__iframe/_active/video__iframe_active.css');
 @import url('../blocks/paragraphs/paragraphs.css');
 @import url('../blocks/paragraphs/__text/paragraphs__text.css');
 
@@ -66,6 +64,19 @@
 @import url(../blocks/gallery-grid/__container/gallery-grid__container.css);
 @import url(../blocks/gallery-grid/__pic/gallery-grid__pic.css);
 @import url(../blocks/gallery-grid/__title/gallery-grid__title.css);
+
+
+@import url(../blocks/tell/tell.css);
+@import url(../blocks/tell/__subtitle/tell__subtitle.css);
+@import url(../blocks/tell/__subtitle/_is_under/tell__subtitle_is_under.css);
+@import url(../blocks/tell/__image/tell__image.css);
+@import url(../blocks/tell/__lists/tell__lists.css);
+@import url(../blocks/tell/__item/tell__item.css);
+@import url(../blocks/tell/__link/tell__link.css);
+@import url(../blocks/tell/__networks/tell__networks.css);
+@import url(../blocks/tell/__links/tell__links.css);
+@import url(../blocks/tell/__icon/tell__icon.css);
+@import url(../blocks/tell/__text/tell__text.css);
 
 
 @import url(../blocks/hidden/hidden.css);
@@ -126,6 +137,7 @@
 @import url(../blocks/comments/__link/comments__link.css);
 @import url(../blocks/comments/__slide/comments__slide.css);
 @import url(../blocks/comments/__text-info/comments__text-info.css);
+@import url(../blocks/comments/__text-info-overlay/comments__text-info-overlay.css);
 @import url(../blocks/comments/__title/comments__title.css);
 @import url(../blocks/comments/__wrapper/comments__wrapper.css);
 
@@ -136,7 +148,6 @@
 @import url(../blocks/pagination/pagination.css);
 
 @import url(../blocks/pagination/pagination.css);
-
 
 
 
