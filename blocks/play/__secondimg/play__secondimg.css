@@ -1,0 +1,5 @@
+.play__secondimg {
+background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: .5s;
+}
