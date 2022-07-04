@@ -1,0 +1,31 @@
+.header__button{
+    max-width: 361px;
+    min-height: 55px;
+    padding: 0;
+    padding-left: 16px;
+    text-align: left;
+    font-family: 'Formular', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242424;
+    text-transform: uppercase;
+    border-width: 1px;
+    cursor: pointer;
+    background-color: #E5E5E5;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width: 1440px) {
+    .header__button{
+        font-size: 14px;
+        line-height: 17px;
+        border: none;
+        display: flex;
+    }
+}
+.header__button:hover {
+  opacity: 0.5;
+}

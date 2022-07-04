@@ -1,0 +1,60 @@
+.btn-arrow__left {
+  top: 0;
+}
+.btn-arrow__left {
+  box-sizing: border-box;
+  background-image: url(../../../image/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  margin: 0;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  width: 48px;
+  height: 48px;
+  border: none;
+  position: relative;
+  border-radius: 25px;
+}
+.btn-arrow__left:active {
+  background-image: url(../../../image/arrow-left-white.svg);
+  transform: scale(1.1);
+  background-color: rgb(0, 0, 0);
+}
+.btn-arrow__left:hover {
+  background-image: url(../../../image/arrow-left-white.svg);
+  background-color: rgb(0, 0, 0);
+  transition: background 0.1s;
+  transition-delay: .15s;
+}
+.btn-arrow__left::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  border: 1px solid #242424;
+  border-right: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.btn-arrow__left::before {
+  content: '';
+  position: absolute;
+  width: 48%;
+  transform: rotate(0);
+  transform-origin: 100% 50%;
+  border: 1px solid #242424;
+  border-right: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  transition: transform .15s ease-in-out;
+}
+.btn-arrow__left:hover::before  {
+  transform: rotate(-180deg);
+  transform-origin: 100% 50%;
+}

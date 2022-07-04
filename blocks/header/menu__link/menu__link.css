@@ -1,0 +1,26 @@
+.menu__link{
+    /* min-height: 56px; */
+    border: 1px solid #000000;
+    border-bottom: 0;
+    cursor: pointer;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.menu__link:last-child{
+    border-bottom: 1px solid #000000;
+}
+
+@media screen and (min-width: 1440px) {
+    .menu__link{
+       border: none;
+    }
+    .menu__link:last-child{
+        border-bottom: 0;
+    }
+}
+.menu__link:hover .ellipse {
+	display: flex;
+}

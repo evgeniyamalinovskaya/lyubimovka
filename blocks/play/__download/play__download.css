@@ -1,0 +1,27 @@
+.play__download {
+  padding: 0 16px;
+  margin: 0;
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
+  background-color: transparent;
+  border-top: 1px solid #242424;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 0.8s;
+}
+
+.play__download:hover {
+ 
+  color: #fff;
+  cursor: pointer;
+  background-position: left;
+}

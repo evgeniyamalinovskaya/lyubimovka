@@ -1,0 +1,13 @@
+.comments__text-info-overlay {
+  max-height: 80%;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 4px; /* ширина для вертикального скролла */
+  background-color: #cecece;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #faa9a9;
+  border-radius: 25px;
+}

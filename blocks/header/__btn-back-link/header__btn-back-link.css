@@ -1,0 +1,27 @@
+.header__btn-back-link{
+    display: flex;
+    justify-content: space-between;
+    min-width: 115px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-image: url(../../../image/arrow-left.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 9px;
+    padding-top: 5px;
+    /* padding-right: 30px; */
+    padding-left: 10px;
+    color: #242424;
+    background: transparent;
+    background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+    background-size: 200%;
+}
+.header__btn-back-link:hover {
+  background-position: left;
+  color: #ECEBE8;
+  transition: .8s;
+}
+.header__btn-back-link:hover .header__btn-img{
+  background-image: url(../../../image/arrow-left-white.svg);
+}

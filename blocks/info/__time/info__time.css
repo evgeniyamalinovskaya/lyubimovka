@@ -1,0 +1,36 @@
+.info__time {
+  width: 400px;
+  height: 32px;
+  margin-left: 124px;
+  margin-bottom: 16px;
+
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+
+  text-align: left;
+
+  color: #242424;
+
+}
+
+@media screen and (max-width: 1140px) {
+  .info__time {
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .info__time {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .info__time {
+    width: 200px;
+    margin-left: 89px;
+  }
+}

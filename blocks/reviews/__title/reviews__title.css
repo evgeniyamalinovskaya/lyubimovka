@@ -1,0 +1,15 @@
+.reviews__title {
+  max-width: 718px;
+  margin-bottom: 30px;
+  text-align: left;
+  justify-self: flex-start;
+  align-self: center;
+  grid-area: title;
+}
+
+@media screen and (max-width: 620px) {
+  .reviews__title {
+    margin: 0 0 40px 24px;
+
+  }
+}

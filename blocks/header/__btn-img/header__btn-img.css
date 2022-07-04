@@ -1,0 +1,20 @@
+.header__btn-img{
+  background-image: url(../../../image/arrow-left.svg);
+  background-repeat: no-repeat;
+  height: 13px;
+  width: 21px;
+}
+/* .header__btn-img {
+	padding-right: 20px;
+}
+@media screen and (max-width: 1439px) {
+	.header__btn-img {
+		margin-right: 0px;
+		padding-right: 20px;
+	}
+}
+@media screen and (min-width: 1440px) {
+	.header__btn-img {
+		padding-left: 10px;
+	}
+} */

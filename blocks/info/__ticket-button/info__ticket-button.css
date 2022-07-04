@@ -1,0 +1,56 @@
+.info__ticket-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 56px;
+  margin-left: 120px;
+  padding: 0;
+  border: 1px solid #232323;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 20px;
+  background-color: transparent;
+  align-self: flex-end;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 0.5s;
+
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'FormularLight', 'Arial', sans-serif;
+}
+
+.info__ticket-button:hover, .info__ticket-button:hover .info__ticket-button-arrow {
+  background-position: left;
+  color: #ECEBE8;
+  fill: #ECEBE8;
+}
+
+.info__ticket-button:active {
+  transform: scale(1.2, 1.2);
+  outline: none;
+}
+
+@media screen and (max-width: 1140px) {
+  .info__ticket-button {
+    margin-left: 110px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .info__ticket-button {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .info__ticket-button {
+    margin-left: 85px;
+    margin-bottom: 36px;
+  }
+}

@@ -1,0 +1,6 @@
+@media screen and (min-width: 1150px){
+    .footer__info-partner_type_grid-text{
+        grid-column-start: 1;
+        width: 125px;
+}
+}

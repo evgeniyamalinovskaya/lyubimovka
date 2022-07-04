@@ -1,0 +1,12 @@
+.header__link {
+	text-decoration: none;
+	font-family: "Formular", Arial, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.375px;
+	color: #242424;
+	min-height: 56px;
+	display: flex;
+	align-items: center;
+}
