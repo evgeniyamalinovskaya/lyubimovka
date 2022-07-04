@@ -111,16 +111,13 @@
 @import url(../blocks/play/__title/play__title.css);
 @import url(../blocks/play/__container/play__container.css);
 @import url(../blocks/play/__paragraph/play__paragraph.css);
-@import url(../blocks/play/__secondparagraph/play__secondparagraph.css);
-@import url(../blocks/play/__button/play__button.css);
-@import url(../blocks/play/__newpage/play__newpage.css);
+@import url(../blocks/play/__watch/play__watch.css);
 @import url(../blocks/play/__download/play__download.css);
-@import url(../blocks/play/__img/play__img.css);
 @import url(../blocks/play/__box/play__box.css);
 @import url(../blocks/play/__author/play__author.css);
-@import url(../blocks/play/__nextauthor/play__nextauthor.css);
 @import url(../blocks/play/__sign/play__sign.css);
-
+@import url(../blocks/play/__watch-img/play__watch-image.css);
+@import url(../blocks/play/__download-img/play__download-img.css);
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__link-text/reviews__link-text.css);

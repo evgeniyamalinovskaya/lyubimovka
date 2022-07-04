@@ -1,0 +1,8 @@
+.play__download-img {
+  box-sizing: border-box;
+  background-image: url(../../../image/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+}

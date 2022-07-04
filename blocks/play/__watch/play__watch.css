@@ -1,4 +1,4 @@
-.play__firstbutton {
+.play__watch {
   padding: 0 16px;
   margin: 0;
   width: 100%;
@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   border: none;
-  font-family: 'Formular';
+  font-family: 'Formular', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -19,9 +19,20 @@
   transition: 0.8s;
   box-sizing: border-box;
 }
-.play__firstbutton:hover {
+.play__watch:hover {
   background-color: #242424;
   color: #fff;
   cursor: pointer;
   background-position: left;
+}
+
+.play__watch:hover .play__watch-img{
+  background-image: url(../../../image/arrow-right-white.svg);
+  transform: rotate(-45deg);
+  transition: 0.1s;
+}
+
+.play__watch:active {
+  transform: scale(1.1);
+  transition-delay: 0ms;
 }
