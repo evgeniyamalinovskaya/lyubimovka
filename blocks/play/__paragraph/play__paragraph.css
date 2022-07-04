@@ -9,8 +9,3 @@
   text-align: left;
 }
 
-@media (max-width: 560px) {
-  .play__paragraph {
-    display: none;
-  }
-}

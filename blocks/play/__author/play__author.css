@@ -9,8 +9,3 @@
   margin: 0 0 6px 0;
 }
 
-@media (max-width: 560px) {
-  .play__author {
-    display: none;
-  }
-}
