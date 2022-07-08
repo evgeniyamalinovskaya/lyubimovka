@@ -47,8 +47,6 @@ playVideoButton.addEventListener('click', () => {
 });
 
 
-
-
 const swiper = new Swiper('.reviews', {
   // Optional parameters
   direction: 'horizontal',
